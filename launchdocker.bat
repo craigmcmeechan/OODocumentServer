@@ -1,0 +1,1 @@
+docker run -i -t -p 80:80 --restart=always -e ALLOW_PRIVATE_IP_ADDRESS=true -v C:\WORK\MonoNoCode\DocumentServer/sdkjs:/var/www/onlyoffice/documentserver/sdkjs -v C:\WORK\MonoNoCode\DocumentServer/web-apps:/var/www/onlyoffice/documentserver/web-apps -v C:\WORK\MonoNoCode\DocumentServer/sdkjs-forms:/var/www/onlyoffice/documentserver/sdk-forms documentserver-develop
